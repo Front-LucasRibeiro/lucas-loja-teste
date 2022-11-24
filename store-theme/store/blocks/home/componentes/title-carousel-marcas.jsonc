@@ -1,0 +1,11 @@
+{
+  "rich-text#title-carousel-marcas": {
+    "props": {
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER",
+      "text": "## Compre por Marca",
+      "font": "t-heading-5",
+      "blockClass": "title-carousel-marcas"
+    }
+  }
+}

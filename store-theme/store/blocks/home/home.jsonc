@@ -4,7 +4,10 @@
       "flex-layout.row#title-pagina",
       "list-context.image-list#full-banner-home",
       "flex-layout.row#shelf-home-01",
-      "countdown"
+      "countdown",
+      "info-card#banner-meio-home",
+      "rich-text#title-carousel-marcas",
+      "flex-layout.row#carousel-marcas-home"
     ]
   }
 }

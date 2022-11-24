@@ -1,0 +1,41 @@
+{
+  "flex-layout.row#carousel-marcas-home": {
+    "children": [
+      "list-context.image-list#carousel-marcas-home"
+    ],
+    "props": {
+      "fullWidth": false
+    }
+  },
+  "list-context.image-list#carousel-marcas-home": {
+    "children": [
+      "slider-layout#carousel-marcas-home-images"
+    ],
+    "props": {
+      "preload": true,
+      "height": 60,
+      "images": []
+    }
+  },
+  "slider-layout#carousel-marcas-home-images": {
+    "props": {
+      "itemsPerPage": {
+        "desktop": 3,
+        "tablet": 1,
+        "phone": 1
+      },
+      "slideTransition": {
+        "speed": 2200,
+        "delay": 300,
+        "timing": ""
+      },
+      "infinite": true,
+      "autoplay": {
+        "timeout": 2200,
+        "stopOnHover": true
+      },
+      "showNavigationArrows": "never",
+      "blockClass": "carousel-marcas-home-images"
+    }
+  }
+}

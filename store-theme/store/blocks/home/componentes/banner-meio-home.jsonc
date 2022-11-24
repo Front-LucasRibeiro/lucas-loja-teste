@@ -1,0 +1,17 @@
+{
+  "info-card#banner-meio-home": {
+    "props": {
+      "id": "info-card-example",
+      "isFullModeStyle": false,
+      "textPosition": "center",
+      "imageUrl": "https://storecomponents.vteximg.com.br/arquivos/banner-infocard2.png",
+      "imageActionUrl": "/sale/d",
+      "callToActionUrl": "/sale/d",
+      "headline": "Coleção Teste",
+      "callToActionText": "Veja mais",
+      "blockClass": "banner-meio-home",
+      "textAlignment": "center",
+      "callToActionMode": "button"  //link,button,none
+    }
+  }
+}
