@@ -1,0 +1,30 @@
+{
+  // start vitrine novidades
+  "flex-layout.row#shelf-home-01": {
+    "title": "Vitrine home 02",
+    "props": {
+      "blockClass": "shelf-home"
+    },
+    "children": [
+      "list-context.product-list#shelf"
+    ]
+  },
+  "list-context.product-list#shelf": {
+    "blocks": [
+      "product-summary.shelf"
+    ],
+    "props": {
+      "orderBy": "OrderByTopSaleDESC"
+    }
+  },
+  "product-summary.shelf": {
+    "title": "Card de produto",
+    "props": {
+      "blockClass":"product-summary"
+    },
+    "children": [
+      "product-summary-name"
+    ]
+  }
+  // end vitrine novidades
+}

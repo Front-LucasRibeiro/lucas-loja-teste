@@ -1,0 +1,21 @@
+{
+  "flex-layout.row#title-pagina": {
+    "children": [
+      "rich-text#title-pagina"
+    ],
+    "props": {
+      "fullWidth": true
+    }
+  },
+  // start titulo na página
+  "rich-text#title-pagina": {
+    "props": {
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER",
+      "text": "# Loja VTEX IO",
+      "font": "t-heading-5",
+      "blockClass": "title-pagina"
+    }
+  }
+  // end titulo na página
+}

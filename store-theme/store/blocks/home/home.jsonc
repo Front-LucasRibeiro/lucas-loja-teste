@@ -1,0 +1,10 @@
+{
+  "store.home": {
+    "blocks": [
+      "flex-layout.row#title-pagina",
+      "list-context.image-list#full-banner-home",
+      "flex-layout.row#shelf-home-01",
+      "countdown"
+    ]
+  }
+}

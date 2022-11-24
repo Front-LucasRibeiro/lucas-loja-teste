@@ -1,0 +1,19 @@
+{
+  "name": "lucas-loja-teste",
+  "version": "1.0.0",
+  "description": "\"Projeto Lucas Testes VTEX\"",
+  "main": "index.js",
+  "scripts": {
+    "checkout": "cd checkout && gulp",
+    "store": "gulp",
+    "start": "concurrently \"yarn store\" \"yarn checkout\""
+  },
+  "author": "Lucas Seri.e Design",
+  "license": "ISC",
+  "dependencies": {
+    "concurrently": "^7.3.0",
+    "gulp": "^4.0.2",
+    "gulp-sass": "^4.1.0",
+    "gulp-uglify": "^3.0.2"
+  }
+}
